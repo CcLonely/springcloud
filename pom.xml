@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--SpringCloud 父级项目进行版本控制-->
+    <groupId>top.cg0509</groupId>  <!--报包名-->
+    <artifactId>springCloud</artifactId> <!--项目名-->
+    <version>1.0-SNAPSHOT</version>  <!--版本-->
+    <packaging>pom</packaging>   <!--指定为父级目录，子模块进行引用-->
+
+    <name>springCloud</name>   <!--项目名字-->
+    <dependencies></dependencies> <!--版本-->
+    <!--引入springBoot父级目录-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <modules>
+        <module>eureka_server</module>
+    </modules>
+
+    <!--定义版本-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!--项目编码格式-->
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding><!--项目输出编码格式-->
+        <java.version>1.8</java.version><!--JDK版本-->
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version> <!--springcloud版本-->
+    </properties>
+
+
+    <!--对依赖架包进行版本管理-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!--编译生命-->
+    <build>
+        <!--使用插件-->
+        <plugins>
+            <!--maven编译插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
