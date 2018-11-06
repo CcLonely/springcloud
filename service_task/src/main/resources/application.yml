@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: task
+    name: service_task
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/hello_test?userUnicode=true&characterEncoding=utf-8&useSSL=false
