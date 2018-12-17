@@ -22,6 +22,7 @@
 
     <modules>
         <module>eureka_server</module>
+        <module>service_common</module>
     </modules>
 
     <!--定义版本-->

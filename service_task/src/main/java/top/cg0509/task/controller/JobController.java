@@ -3,6 +3,10 @@ package top.cg0509.task.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
 import org.quartz.CronScheduleBuilder;
 import org.quartz.CronTrigger;
 import org.quartz.JobBuilder;
@@ -29,8 +33,7 @@ import top.cg0509.task.service.IJobAndTriggerService;
 
 import javax.annotation.Resource;
 
-
-@RestController
+@Api(value = "JobController" , description = "定时任务管理")
 @RequestMapping(value="/job")
 public class JobController 
 {
@@ -51,6 +54,12 @@ public class JobController
 	 * @param cronExpression
 	 * @throws Exception
 	 */
+	@ApiOperation(value = "新增定时任务",notes = "")
+	@ApiImplicitParams({
+			@ApiImplicitParam(name = "jobClassName",value = "任务名称(类名)",required = true),
+			@ApiImplicitParam(name = "jobGroupName",value = "分组名称",required = true),
+			@ApiImplicitParam(name = "cronExpression",value = "corn表达式",required = true)
+	})
 	@PostMapping(value="/addjob")
 	public void addjob(@RequestParam(value="jobClassName")String jobClassName, 
 			@RequestParam(value="jobGroupName")String jobGroupName, 
@@ -87,6 +96,11 @@ public class JobController
 	 * @param jobGroupName
 	 * @throws Exception
 	 */
+	@ApiOperation(value = "暂停任务")
+	@ApiImplicitParams({
+			@ApiImplicitParam(name = "jobClassName",value = "任务名称",required = true),
+			@ApiImplicitParam(name = "jobGroupName",value = "分组名称",required = true)
+	})
 	@PostMapping(value="/pausejob")
 	public void pausejob(@RequestParam(value="jobClassName")String jobClassName, @RequestParam(value="jobGroupName")String jobGroupName) throws Exception
 	{			
@@ -105,6 +119,11 @@ public class JobController
 	 * @param jobGroupName
 	 * @throws Exception
 	 */
+	@ApiOperation(value = "恢复任务")
+	@ApiImplicitParams({
+			@ApiImplicitParam(name = "jobClassName",value = "任务名称",required = true),
+			@ApiImplicitParam(name = "jobGroupName",value = "分组名称",required = true)
+	})
 	@PostMapping(value="/resumejob")
 	public void resumejob(@RequestParam(value="jobClassName")String jobClassName, @RequestParam(value="jobGroupName")String jobGroupName) throws Exception
 	{			
@@ -116,7 +135,12 @@ public class JobController
 		scheduler.resumeJob(JobKey.jobKey(jobClassName, jobGroupName));
 	}
 	
-	
+	@ApiOperation(value = "修改任务执行时间")
+	@ApiImplicitParams({
+			@ApiImplicitParam(name = "jobClassName",value = "任务名称",required = true),
+			@ApiImplicitParam(name = "jobGroupName",value = "分组名称",required = true),
+			@ApiImplicitParam(name = "cronExpression",value = "corn表达式",required = true)
+	})
 	@PostMapping(value="/reschedulejob")
 	public void rescheduleJob(@RequestParam(value="jobClassName")String jobClassName, 
 			@RequestParam(value="jobGroupName")String jobGroupName,
@@ -152,6 +176,11 @@ public class JobController
 	 * @param jobGroupName
 	 * @throws Exception
 	 */
+	@ApiOperation(value = "删除任务")
+	@ApiImplicitParams({
+			@ApiImplicitParam(name = "jobClassName",value = "任务名称",required = true),
+			@ApiImplicitParam(name = "jobGroupName",value = "分组名称",required = true)
+	})
 	@PostMapping(value="/deletejob")
 	public void deletejob(@RequestParam(value="jobClassName")String jobClassName, @RequestParam(value="jobGroupName")String jobGroupName) throws Exception
 	{			
@@ -171,6 +200,11 @@ public class JobController
 	 * @param pageSize
 	 * @return
 	 */
+	@ApiOperation(value = "查询任务")
+	@ApiImplicitParams({
+			@ApiImplicitParam(name = "pageNum",value = "起始页",required = true),
+			@ApiImplicitParam(name = "pageSize",value = "每天显示行数",required = true)
+	})
 	@GetMapping(value="/queryjob")
 	public Map<String, Object> queryjob(@RequestParam(value="pageNum")Integer pageNum, @RequestParam(value="pageSize")Integer pageSize) 
 	{			

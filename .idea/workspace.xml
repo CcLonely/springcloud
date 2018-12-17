@@ -6,7 +6,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application-peer1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application-peer1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_feign/src/main/java/top/cg0509/service_feign/ServiceFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_feign/src/main/java/top/cg0509/service_feign/ServiceFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/TaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/TaskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/JobAndTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/JobAndTriggerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service_task/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service_task/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +24,12 @@
     <ignored path="$PROJECT_DIR$/service_feign/target/" />
     <ignored path="$PROJECT_DIR$/server-zipkin/target/" />
     <ignored path="$PROJECT_DIR$/service_admin/target/" />
+    <ignored path="$PROJECT_DIR$/service_item_center/target/" />
+    <ignored path="$PROJECT_DIR$/service_sso_client/target/" />
+    <ignored path="$PROJECT_DIR$/service_member_center/target/" />
+    <ignored path="$PROJECT_DIR$/service_merchant_centre/target/" />
+    <ignored path="$PROJECT_DIR$/service_activity_center/target/" />
+    <ignored path="$PROJECT_DIR$/service_common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,57 +57,108 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service_admin/src/main/resources/application.yml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1482">
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DruidConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/DruidConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisPlusConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCategoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/service/ItemCategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCategoryServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/service/impl/ItemCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCategoryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/web/ItemCategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwaggerConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/SwaggerConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceItemCenterApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/ServiceItemCenterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_task/pom.xml">
+        <entry file="file://$PROJECT_DIR$/service_common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="399">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_admin/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service_item_center/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_task/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-zipkin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceAdminApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_admin/src/main/java/top/cg0509/service_admin/ServiceAdminApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="174">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -106,6 +169,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -116,57 +180,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka_server/src/main/resources/application-peer2.yml" />
-        <option value="$PROJECT_DIR$/eureka_server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/TaskApplication.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/QuartzApiController.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/ApplicationStartQuartzJobListener.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/QuartzScheduler.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/QuartzConfigration.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/JobFactory.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/TestTask/TestTask.java" />
-        <option value="$PROJECT_DIR$/service_task/src/test/java/top/cg0509/task/TaskApplicationTests.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/QuartzInitVopVosFactory.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/QuartzConfigration.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/entity/Task.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/ScheduleRefreshDatabase.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/util/CronDateUtils.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/entity/BaseJob.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/demo/BaseJob.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/demo/HelloJob.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/demo/NewJob.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/QuartzService.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/QuartzServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/dao/TaskMapper.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/resources/static/JobManager.html" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/SchedulerConfig.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/CommonController.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/entity/JobAndTrigger.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/dao/JobAndTriggerMapper.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/IJobAndTriggerService.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/JobAndTriggerImpl.java" />
-        <option value="$PROJECT_DIR$/service_task/src/main/resources/quartz.properties" />
-        <option value="$PROJECT_DIR$/service_task/src/main/resources/mapper/JobAndTriggerMapper.xml" />
         <option value="$PROJECT_DIR$/service_task/pom.xml" />
-        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/JobController.java" />
-        <option value="$PROJECT_DIR$/service_apollo/src/main/resources/META-INF/app.properties" />
-        <option value="$PROJECT_DIR$/service_apollo/src/main/java/top/cg0509/service_apollo/ServiceApolloApplication.java" />
-        <option value="$PROJECT_DIR$/service_apollo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service_apollo/pom.xml" />
-        <option value="$PROJECT_DIR$/service_apollo/src/main/java/top/cg0509/service_apollo/config/ConfigRefresher.java" />
-        <option value="$PROJECT_DIR$/eureka_server/src/main/resources/application-peer1.yml" />
-        <option value="$PROJECT_DIR$/service_zuul/src/main/java/top/cg0509/service_zuul/ServiceZuulApplication.java" />
         <option value="$PROJECT_DIR$/service_task/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service_zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/TaskApplication.java" />
+        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/CommonController.java" />
+        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/JobController.java" />
+        <option value="$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/JobAndTriggerImpl.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/multiple/DataSourceContextHolder.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/multiple/MultipleDataSource.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/enums/DataSourceEnum.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/annotation/DataSource.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/annotation/DataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/MybatisplusConfiguration.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/$Entity.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/itemMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/resources/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemAttributeValueMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemAttributeMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemAttrValueItemMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemBrandMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryAttrMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryAttrValueMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryBrandMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemEvaluationMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemEvaluationReplyMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemEvaluationShowMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemFavouriteMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemPictureMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemPriceMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSectionMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSkuMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSkuPictureMapper.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/exceptions/ItemCategoryException.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/enums/ItemCategoryEnum.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/dto/ItemCategoryExecution.java" />
+        <option value="$PROJECT_DIR$/service_common/src/main/java/top/cg0509/common/common/vo/Result.java" />
+        <option value="$PROJECT_DIR$/service_admin/pom.xml" />
+        <option value="$PROJECT_DIR$/service_common/pom.xml" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/service/ItemCategoryService.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/service/impl/ItemCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/service_feign/src/main/java/top/cg0509/service_feign/ServiceFeignApplication.java" />
-        <option value="$PROJECT_DIR$/server-zipkin/src/main/java/top/cg0509/serverzipkin/ServerZipkinApplication.java" />
-        <option value="$PROJECT_DIR$/server-zipkin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service_admin/src/main/java/top/cg0509/service_admin/ServiceAdminApplication.java" />
-        <option value="$PROJECT_DIR$/service_admin/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/service_admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/web/ItemCategoryController.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/service_item_center/pom.xml" />
+        <option value="$PROJECT_DIR$/service_item_center/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -185,17 +249,27 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service_item_center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service_item_center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="792" />
-    <option name="y" value="-33" />
-    <option name="width" value="981" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="498" />
+    <option name="y" value="-29" />
+    <option name="width" value="1524" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -204,6 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,13 +286,95 @@
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_item_center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,21 +385,21 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootQuartz-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service_item_center" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Study\springCloud\service_common\src\main\java\top\cg0509\common\common\vo" />
+      <recent name="F:\Study\springCloud\service_item_center\src\main\java\top\cg0509\service_item_center\model\entity" />
+      <recent name="F:\Study\springCloud\service_item_center\src\main\resources" />
+      <recent name="F:\Study\springCloud\service_item_center" />
       <recent name="F:\Study\springCloud\service_task\src\main\java\top\cg0509\task\controller" />
-      <recent name="F:\Study\springCloud\service_task\src\main\java\top\cg0509\task" />
-      <recent name="F:\Study\springCloud\service_task\src\main\java\top\cg0509\task\entity" />
-      <recent name="F:\Study\springCloud\service_task\src\main\java\top\cg0509\task\dao" />
-      <recent name="F:\Study\springCloud\service_task\src\main\java\top\cg0509\task\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,7 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.eureka_server_peer1">
+  <component name="RunManager" selected="Spring Boot.ServiceItemCenterApplication">
     <configuration name="TaskApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.cg0509.task.TaskApplication" />
       <module name="service_task" />
@@ -288,9 +445,70 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/service_item_center" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.eureka_server.EurekaServerApplication" />
+    </configuration>
+    <configuration name="ServerZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.serverzipkin.ServerZipkinApplication" />
+    </configuration>
+    <configuration name="ServiceActivityCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_activity_center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_activity_center.ServiceActivityCenterApplication" />
+    </configuration>
+    <configuration name="ServiceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_admin.ServiceAdminApplication" />
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_feign.ServiceFeignApplication" />
+    </configuration>
+    <configuration name="ServiceItemCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_item_center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_item_center.ServiceItemCenterApplication" />
+    </configuration>
+    <configuration name="ServiceMemberCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_member_center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_member_center.ServiceMemberCenterApplication" />
+    </configuration>
+    <configuration name="ServiceMerchantCentreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_merchant_centre" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_merchant_centre.ServiceMerchantCentreApplication" />
+    </configuration>
+    <configuration name="ServiceSsoClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_sso_client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_sso_client.ServiceSsoClientApplication" />
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.cg0509.service_zuul.ServiceZuulApplication" />
     </configuration>
     <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service_task" />
@@ -331,10 +549,20 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="Spring Boot.eureka_server_peer1" />
       <item itemvalue="Spring Boot.eureka_server_peer2" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.TaskApplication" />
+      <item itemvalue="Spring Boot.ServiceItemCenterApplication" />
+      <item itemvalue="Spring Boot.ServiceActivityCenterApplication" />
+      <item itemvalue="Spring Boot.ServiceMerchantCentreApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item itemvalue="Spring Boot.ServiceMemberCenterApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Spring Boot.ServiceSsoClientApplication" />
+      <item itemvalue="Spring Boot.ServerZipkinApplication" />
+      <item itemvalue="Spring Boot.ServiceAdminApplication" />
       <item itemvalue="Application.TaskApplication" />
     </list>
     <recent_temporary>
@@ -361,20 +589,29 @@
       <workItem from="1541399607697" duration="214000" />
       <workItem from="1541402169443" duration="5973000" />
       <workItem from="1541465076813" duration="705000" />
-      <workItem from="1541470316409" duration="4583000" />
+      <workItem from="1541470316409" duration="5494000" />
+      <workItem from="1542078258417" duration="5284000" />
+      <workItem from="1543999663081" duration="815000" />
+      <workItem from="1544000954642" duration="1794000" />
+      <workItem from="1544015081608" duration="5246000" />
+      <workItem from="1544056170592" duration="2802000" />
+      <workItem from="1544159073156" duration="1122000" />
+      <workItem from="1544169740238" duration="2386000" />
+      <workItem from="1544326705468" duration="11665000" />
+      <workItem from="1544401885863" duration="916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46599000" />
+    <option name="totallyTimeSpent" value="79540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.118835896" side_tool="true" visible="true" weight="0.27419356" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32983023" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.19725141" side_tool="true" weight="0.2358156" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="9" visible="true" weight="0.17946646" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -384,16 +621,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4995958" weight="0.030411448" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3291592" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88116413" visible="true" weight="0.27419356" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80274856" weight="0.0" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28455943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2586904" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32983023" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -401,9 +637,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4987874" weight="0.18262412" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4995958" weight="0.008944544" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.71644294" visible="true" weight="0.06822262" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32983023" />
     </layout>
   </component>
@@ -414,255 +651,315 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/QuartzScheduler.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/QuartzInitVopVosFactory.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/ApplicationStartQuartzJobListener.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/quartz/JobFactory.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/QuartzConfigration.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/ScheduleRefreshDatabase.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/entity/Task.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/util/CronDateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/QuartzApiController.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/QuartzService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.2.1/pagehelper-4.2.1.jar!/com/github/pagehelper/PageInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/job/BaseJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/dao/TaskMapper.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/QuartzServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/resources/static/JobManager.html" />
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/IJobAndTriggerService.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/enums/DataSourceEnum.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/multiple/DataSourceContextHolder.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/DruidConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/mybatis-generator.xml" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/$Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/entity/JobAndTrigger.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/resources/quartz.properties">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemExample.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemWithBLOBs.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSqlProvider.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemSkuPictureKey.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemSku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/service/impl/JobAndTriggerImpl.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemSkuPicture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/config/SchedulerConfig.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemSkuPictureExample.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/resources/mybatis-generator.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/CommonController.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSkuSqlProvider.java" />
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemAttributeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/dao/JobAndTriggerMapper.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemAttributeValueMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="95">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/resources/mapper/JobAndTriggerMapper.xml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemAttrValueItemMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="114">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/job/HelloJob.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemBrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="114">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/job/NewJob.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryAttrMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="114">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/resources/templates/JobManager.html">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryBrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="230" column="50" selection-start-line="230" selection-start-column="41" selection-end-line="230" selection-end-column="50" />
+        <state relative-caret-position="114">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/controller/JobController.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryAttrValueMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="67" column="44" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        <state relative-caret-position="114">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobBuilder.class">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemCategoryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="114">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/java/top/cg0509/task/TaskApplication.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemEvaluationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="114">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_apollo/src/main/java/top/cg0509/service_apollo/ServiceApolloApplication.java" />
-    <entry file="file://$PROJECT_DIR$/service_apollo/src/main/resources/META-INF/app.properties" />
-    <entry file="file://$PROJECT_DIR$/service_apollo/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/service_apollo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/service_apollo/src/main/java/top/cg0509/service_apollo/config/ConfigRefresher.java" />
-    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemEvaluationReplyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="95">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/resources/application-peer1.yml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemEvaluationShowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemFavouriteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemPictureMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemPriceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSectionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSkuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/mapper/ItemSkuPictureMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/exceptions/ItemCategoryException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/enums/ItemCategoryEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="169">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service_common/src/main/java/top/cg0509/common/common/vo/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
+        <state relative-caret-position="50">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_zuul/src/main/java/top/cg0509/service_zuul/ServiceZuulApplication.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/dto/ItemCategoryExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="421">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/model/entity/ItemCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_member_center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/top/cg0509/service_feign/ServiceFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="76">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/service/impl/ItemCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-zipkin/src/main/java/top/cg0509/serverzipkin/ServerZipkinApplication.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="1482">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/web/ItemCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="399">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_admin/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-zipkin/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="342">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_admin/src/main/java/top/cg0509/service_admin/ServiceAdminApplication.java">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/service/ItemCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="304">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_admin/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_admin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="399">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_task/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_admin/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/ServiceItemCenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/java/top/cg0509/service_item_center/config/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_center/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -718,7 +1015,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka_server</last-edited>
+          <last-edited>service_common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

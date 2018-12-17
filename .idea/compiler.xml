@@ -8,8 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka_server" />
         <module name="server-zipkin" />
+        <module name="service_activity_center" />
         <module name="service_admin" />
+        <module name="service_common" />
         <module name="service_feign" />
+        <module name="service_item_center" />
+        <module name="service_member_center" />
+        <module name="service_merchant_centre" />
+        <module name="service_sso_client" />
         <module name="service_task" />
         <module name="service_zuul" />
       </profile>

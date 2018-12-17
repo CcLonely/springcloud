@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+										"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<context id="DB2Tables" targetRuntime="MyBatis3">
+		<property name="autoDelimitKeywords" value="true" />
+		<property name="beginningDelimiter" value="`" />
+		<property name="endingDelimiter" value="`" />
+
+		<commentGenerator>
+			<property name="suppressDate" value="true" />
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+		<!--数据库链接地址账号密码 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/mywebsite?useSSL=false" userId="root" password="123123" />
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		<!--生成Model类存放位置 -->
+		<javaModelGenerator targetPackage="top.cg0509.service_item_center.model.entity" targetProject="src/main/java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+			<property name="rootClass" value="top.cg0509.service_item_center.model.entity.$Entity" />
+		</javaModelGenerator>
+		<!--生成映射文件存放位置 -->
+		<sqlMapGenerator targetPackage="top.cg0509.service_item_center.mapper" targetProject="src/main/java">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		<!-- 客户端代码，生成易于使用的针对Model对象和XML配置文件 的代码 type="ANNOTATEDMAPPER",生成Java Model 和基于注解的Mapper对象 -->
+		<!-- type="MIXEDMAPPER",生成基于注解的Java Model 和相应的Mapper对象 type="XMLMAPPER",生成SQLMap XML文件和独立的Mapper接口 -->
+		<javaClientGenerator type="ANNOTATEDMAPPER" targetPackage="top.cg0509.service_item_center.mapper" targetProject="src/main/java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+		<!--生成对应表及类名 -->
+		<table tableName="item" domainObjectName="Item">
+			<generatedKey column="item_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_attr_value_item" domainObjectName="ItemAttrValueItem">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_attribute" domainObjectName="ItemAttribute">
+		<generatedKey column="attr_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_attribute_value" domainObjectName="ItemAttributeValue">
+			<generatedKey column="value_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_brand" domainObjectName="ItemBrand">
+			<generatedKey column="brand_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_category" domainObjectName="ItemCategory">
+			<generatedKey column="cid" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_category_attr" domainObjectName="ItemCategoryAttr">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_category_attr_value" domainObjectName="ItemCategoryAttrValue">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_category_brand" domainObjectName="ItemCategoryBrand">
+			<generatedKey column="category_brand_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_evaluation" domainObjectName="ItemEvaluation">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_evaluation_reply" domainObjectName="ItemEvaluationReply">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_evaluation_show" domainObjectName="ItemEvaluationShow">
+		<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_favourite" domainObjectName="ItemFavourite">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_picture" domainObjectName="ItemPicture">
+			<generatedKey column="picture_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_price" domainObjectName="ItemPrice">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_section" domainObjectName="ItemSection">
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_sku" domainObjectName="ItemSku">
+			<generatedKey column="sku_id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="item_sku_picture" domainObjectName="ItemSkuPicture">
+			<generatedKey column="shop_id" sqlStatement="MySql" identity="true" />
+		</table>
+	</context>
+</generatorConfiguration>

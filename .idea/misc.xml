@@ -11,6 +11,11 @@
         <option value="$PROJECT_DIR$/service_feign/pom.xml" />
         <option value="$PROJECT_DIR$/server-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/service_admin/pom.xml" />
+        <option value="$PROJECT_DIR$/service_sso_client/pom.xml" />
+        <option value="$PROJECT_DIR$/service_item_center/pom.xml" />
+        <option value="$PROJECT_DIR$/service_member_center/pom.xml" />
+        <option value="$PROJECT_DIR$/service_merchant_centre/pom.xml" />
+        <option value="$PROJECT_DIR$/service_activity_center/pom.xml" />
       </list>
     </option>
   </component>

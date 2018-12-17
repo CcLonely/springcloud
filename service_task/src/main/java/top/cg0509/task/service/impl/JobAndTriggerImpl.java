@@ -11,11 +11,9 @@ import top.cg0509.task.entity.JobAndTrigger;
 import top.cg0509.task.service.IJobAndTriggerService;
 
 import javax.annotation.Resource;
-import javax.transaction.Transactional;
 
 
 @Service
-@Transactional
 public class JobAndTriggerImpl implements IJobAndTriggerService {
 
 	@Resource
@@ -27,5 +25,4 @@ public class JobAndTriggerImpl implements IJobAndTriggerService {
 		PageInfo<JobAndTrigger> page = new PageInfo<JobAndTrigger>(list);
 		return page;
 	}
-
 }
